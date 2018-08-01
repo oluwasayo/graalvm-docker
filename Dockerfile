@@ -11,6 +11,8 @@ RUN set -xeu && \
         ca-certificates `# stays, not having this is just not useful` \
         curl \
         wget \
+        git \
+        libfontconfig1 \
         && \
     mkdir /graalvm && \
     curl -fsSL "https://github.com/oracle/graal/releases/download/vm-${GRAAL_VERSION}/graalvm-ce-${GRAAL_VERSION}-linux-amd64.tar.gz" \

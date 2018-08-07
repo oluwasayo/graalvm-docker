@@ -6,7 +6,9 @@
 ## What’s inside
 
 The image is similar to [`openjdk`](https://hub.docker.com/_/openjdk/) except,
-of course, this one comes with Graal VM.
+of course, this one comes with Graal VM. 
+
+It also adds Git, Maven and [`libfontconfig1`](https://packages.debian.org/sid/libfontconfig1).
 
 ## Usage
 
